@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #030712; color: white; }
+* { box-sizing: border-box; }
+::selection { background: rgba(52, 211, 153, 0.35); }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #020617; }
+::-webkit-scrollbar-thumb { background: rgba(52, 211, 153, 0.35); border-radius: 999px; }
+select option { background: #020617; color: white; }
